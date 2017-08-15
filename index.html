@@ -5,6 +5,8 @@
     <title>Stormi Hoebe | Web Developer</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+<link rel="icon" href="./favicon.ico" type="image/x-icon">
     <script
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
@@ -17,7 +19,7 @@
       <p class="menu-item">•</p>
       <p class="btn fil-cat menu-item" data-rel="education">Education</p>
       <p class="menu-item">•</p>
-      <p class="btn fil-cat menu-item" data-rel="about">About</p>
+      <p class="btn fil-cat menu-item active" data-rel="about">About</p>
     </div>
 
     <div style="clear:both;"></div>
@@ -38,7 +40,7 @@
           Graphic Design
         </p>
       </div>
-      <div class="tile light scale-anm work all">
+      <div class="tile light scale-anm work all hidden">
         <h1>J. Larson Photography</h1>
         <h2>Portfolio Website</h2>
         <h2>Technologies</h2>
@@ -46,32 +48,33 @@
           Wordpress • Divi<br/>
         </p>
       </div>
-      <div class="tile medium scale-anm work all">
+      <div class="tile medium scale-anm work all hidden">
         <h1>GitHub</h1>
         <div class="github-item">
-          <img class="githubLogo" src="./img/gh.png" alt="github logo" width="40px" margin="10px"><p>stormihoebe</p>
+          <a href="https://github.com/stormihoebe"><img class="githubLogo" src="./img/gh.png" alt="github logo" width="40px" margin="10px"><p>stormihoebe</p></a>
 
         </div>
       </div>
-      <div class="tile light scale-anm education all">
+      <div class="tile light scale-anm education hidden all">
         <h1>Lewis & Clark College</h1>
         <h2>Bachelor of Arts<br/>
           Economics '14
+        <br/>
         </h2>
         <img src="./img/lclark.png" alt="lewis & Clark College logo" width="80px">
       </div>
       <div class="tile medium scale-anm about all">
 <img id="logo" src="./img/corn.png" alt="origami unicorn logo">
       </div>
-      <div class="tile light scale-anm education all">
-        <p><em>Some really smart quote about my learning philosophy - Author</em></p>
+      <div class="tile light scale-anm education hidden all">
+        <p class="extra-padding"><em>“The very best thing you can do for the whole world is to make the most of yourself.”<br/></em> – Wallace Wattles</p>
       </div>
-      <div class="tile medium scale-anm education all">
+      <div class="tile medium scale-anm education hidden all">
         <h1>Epicodus</h1>
         <h2>Web & Mobile</br>Development<br/>Java / Android ‘17</h2>
-        <img src="./img/epicodus.png" alt="Epicodus logo" width="90px">
+        <img src="./img/epicodus.png" alt="Epicodus logo" width="120px">
       </div>
-      <div class="tile medium scale-anm work all">
+      <div class="tile medium scale-anm work all hidden">
         <h1>SightWorks</h1>
         <h2>Development Intern</h2>
         <h2>Technologies</h2>
@@ -82,17 +85,17 @@
           React Native
         </p>
       </div>
-      <div class="tile medium scale-anm education all">
+      <div class="tile medium scale-anm education hidden all">
         <h1>Hack University</h1>
         <h2>React Development<br/>
         UX Design<br/>
         Infographic Design<br/>
         Design Thinking<br/>
         </h2>
-        <img src="./img/hack.png" alt="Hack Oregon logo" width="80px">
+        <img src="./img/hack.png" alt="Hack Oregon logo" width="60px">
 
       </div>
-      <div class="tile dark scale-anm education">
+      <div class="tile dark scale-anm education hidden">
         <h1>More</h1>
         <p class="list">
         <strong>Treehouse</strong></br>
@@ -102,7 +105,7 @@
         React Native '17
       </p>
       </div>
-      <div class="tile light scale-anm work all">
+      <div class="tile light scale-anm work all hidden">
         <h1>Hack Oregon</h1>
         <h2>UX Design Intern</h2>
         <h2>Technologies</h2>
@@ -126,7 +129,7 @@
           Sketch • Photoshop
         </p>
       </div>
-      <div class="tile dark scale-anm work all">
+      <div class="tile dark scale-anm work all hidden">
         <h1>SKCI</h1>
         <h2>Company Website</h2>
         <h2>Technologies</h2>
@@ -137,7 +140,7 @@
           (details coming soon)
         </p>
       </div>
-      <div class="tile medium scale-anm work all">
+      <div class="tile medium scale-anm work all hidden">
         <h1>Work with Me</h1>
         <p class="list">
         I am passionate about
@@ -150,7 +153,7 @@
         </p>
       </div>
       <div class="tile light scale-anm about all">
-        <h1>More</h1>
+        <a href="./resume.html"><h1>Resume</h1></a>
        </div>
       <div class="tile medium scale-anm about all">
         <h1>Recent Projects </h1>
@@ -162,11 +165,10 @@
           SKCI (React)
         </p>
         <div class="github-item">
-          <img class="githubLogo" src="./img/gh.png"  alt="github logo"><p>stormihoebe</p>
+          <a href="https://github.com/stormihoebe"><img class="githubLogo" src="./img/gh.png"  alt="github logo"><p>stormihoebe</p></a>
         </div>
        </div>
     </div>
-
     <div style="clear:both;"></div>
   </body>
 </html>

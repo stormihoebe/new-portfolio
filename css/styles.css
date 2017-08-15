@@ -4,6 +4,12 @@ body{
   margin: auto;
   font-family: 'Oxygen', sans-serif;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+  display: -webkit-inline-box;
+}
+
 #portfolio {
     margin: 1rem 0;
     -webkit-column-count: 3;
@@ -15,6 +21,12 @@ body{
     -webkit-column-width: 33.33333333333333%;
     -moz-column-width: 33.33333333333333%;
     column-width: 33.33333333333333%;
+}
+.hidden{
+  display: none;
+}
+.active{
+  opacity: .3;
 }
 .tile {
     -webkit-transform: scale(0);
@@ -40,6 +52,7 @@ body{
 .menu-bar {
   justify-content: center;
   display: flex;
+  margin-top: 10px;
 }
 .menu-item {
   display: inline-block;
@@ -97,6 +110,9 @@ p.list{
   height: auto;
   margin: 5px;
 }
+.resume-container{
+  background: #3C3B3B;
+}
 @media only screen and (max-width: 830px) {
   #portfolio{
     -webkit-column-count: 2;
@@ -107,9 +123,12 @@ p.list{
 
 @media only screen and (max-width: 400px) {
   #portfolio{
-
-  -webkit-column-count: 1;
-  -moz-column-count: 1;
-  column-count: 1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
 }
+.extra-padding{
+  margin: 68px 10px;
+  line-height: 25px;
 }
