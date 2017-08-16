@@ -113,6 +113,9 @@ p.list{
 .resume-container{
   background: #3C3B3B;
 }
+.hoverParent:hover .hoverChild{
+  opacity: .3;
+}
 @media only screen and (max-width: 830px) {
   #portfolio{
     -webkit-column-count: 2;
